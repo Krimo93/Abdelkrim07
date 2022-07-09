@@ -1,0 +1,20 @@
+- 👋 Hi, I’m @Krimo93
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Krimo93/Krimo93 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+Salut je m'appelle Abdelkrim j'ai un problème avec mon code, ma boucle while n'est pas détecté par l'éditeur de test. Quelqu'un peux m'aider ?
+age_prochain = 0
+
+while not age_prochain == 0:
+  age = input("Quel est votre age ? ")
+  try:
+    age_prochain = int(age)
+  except:
+   print("Erreur vous devez rentrer un nombre ")
+
